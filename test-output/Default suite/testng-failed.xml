@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crmpro.test.GeneralClass01">
+      <class name="com.crmpro.test.Pdfread">
         <methods>
-          <include name="Create_New_Contact"/>
-          <include name="setup"/>
+          <include name="pdfreader"/>
         </methods>
-      </class> <!-- com.crmpro.test.GeneralClass01 -->
+      </class> <!-- com.crmpro.test.Pdfread -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
