@@ -18,6 +18,7 @@ public class Baseclass implements Constants
 		public static WebDriver driver;
 		public static Properties propFile;	
 		public static Logger logger = Logger.getLogger(Class.class.getClass());
+		public String a;
 		
 		public void Precondition()
 		{
